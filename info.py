@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "6bb70596130a14d8dbe83f991482095b
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'thunderlinks.site')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "6bb70596130a14d8dbe83f991482095b52179b18")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'thunderlinks.site')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "5400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "5400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/gle.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/gYG.jpg')).split()
