@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/KannadaMagaa">𝙆𝙖𝙣𝙣𝙖𝙙𝙖𝙈𝙖𝙜𝙖𝙖</a>」</b>"""
+    FILE_CAPTION =""" 📂{file_caption}"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
