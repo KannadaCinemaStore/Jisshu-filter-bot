@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '13992749'))
 API_HASH = environ.get('API_HASH', 'c8b1a7c3ce9aa1d1eec2fee774d48399')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7729413876:AAFm6peldVzrVXQEd1H4ptoOl1WpHffaBSE')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7467828276:AAGoMPVfYL6EoPZIlNysfmiGyA7A3IF1NNs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5466885993').split()]
@@ -37,7 +37,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001913629397'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002245219361')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001913629397'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001913629397') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001913629397')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002347166166')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/KannadaMagaa') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
