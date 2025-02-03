@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '13992749'))
 API_HASH = environ.get('API_HASH', 'c8b1a7c3ce9aa1d1eec2fee774d48399')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7467828276:AAGoMPVfYL6EoPZIlNysfmiGyA7A3IF1NNs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8042868611:AAGr_XI7YtMy-M2kDFOu6wJn5XwJcex8zhA')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5466885993').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Ravikumarcn") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001913629397'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KannadaMagaaZone')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002383022094').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002254698991').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Jisshu:Jisshu@jisshu.zw7p3.mongodb.net/?retryWrites=true&w=majority&appName=Jisshu")
@@ -37,7 +37,7 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001913629397'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002245219361')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001913629397'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001913629397') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002347166166')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001913629397')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/KannadaMagaa') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -47,12 +47,12 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Open_Links_bypass")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_To_Open_Links_bypass")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_To_Open_Links_bypass")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "6bb70596130a14d8dbe83f991482095b52179b18")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'thunderlinks.site')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "6bb70596130a14d8dbe83f991482095b52179b18")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'thunderlinks.site')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "6bb70596130a14d8dbe83f991482095b52179b18")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'thunderlinks.site')
+SHORTENER_API = environ.get("SHORTENER_API", "6b1448954c0ae5b33c6bcc9b22a309d39e42d71d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortxlinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "6b1448954c0ae5b33c6bcc9b22a309d39e42d71d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "6b1448954c0ae5b33c6bcc9b22a309d39e42d71d")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1800"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1800"))
 #---------------------------------------------------------------
