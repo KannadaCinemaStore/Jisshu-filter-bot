@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/KannadaMagaaZon
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002254698991').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('mongodb+srv://Jisshu:Jisshu@jisshu.zw7p3.mongodb.net/?retryWrites=true&w=majority&appName=Jisshu")
+DATABASE_URI = environ.get("mongodb+srv://Jisshu:Jisshu@jisshu.zw7p3.mongodb.net/?retryWrites=true&w=majority&appName=Jisshu")
 DATABASE_NAME = environ.get('DATABASE_NAME', "ravikumar1cn")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
